@@ -1,0 +1,147 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea\
+* .idea\compiler.xml
+* .idea\copyright\
+* .idea\copyright\profiles_settings.xml
+* .idea\misc.xml
+* .idea\workspace.xml
+* Wechat.iml
+* app\
+* app\build.gradle
+* app\src\
+* app\src\main\
+* app\src\main\AndroidManifest.xml
+* app\src\main\java\
+* app\src\main\java\com\
+* app\src\main\java\com\example\
+* app\src\main\java\com\example\wechat\
+* app\src\main\java\com\example\wechat\About.java
+* app\src\main\java\com\example\wechat\FlashActivity.java
+* app\src\main\java\com\example\wechat\FriendDataAdapter.java
+* app\src\main\java\com\example\wechat\FriendLayoutFragment.java
+* app\src\main\java\com\example\wechat\FriendMessage.java
+* app\src\main\java\com\example\wechat\LoginActivity.java
+* app\src\main\java\com\example\wechat\MainActivity.java
+* app\src\main\java\com\example\wechat\MessageAdepter.java
+* app\src\main\java\com\example\wechat\MyOpenHelper.java
+* app\src\main\java\com\example\wechat\SendMessage.java
+* app\src\main\java\com\example\wechat\SetLayoutFragment.java
+* app\src\main\java\com\example\wechat\TalkData.java
+* app\src\main\java\com\example\wechat\TalkDataAdapter.java
+* app\src\main\java\com\example\wechat\TalkLayoutFragment.java
+* app\src\main\java\com\example\wechat\TalkingActivity.java
+* app\src\main\res\
+* app\src\main\res\anim\
+* app\src\main\res\anim\in_from_left.xml
+* app\src\main\res\anim\in_from_right.xml
+* app\src\main\res\anim\out_to_left.xml
+* app\src\main\res\anim\out_to_right.xml
+* app\src\main\res\drawable-hdpi\
+* app\src\main\res\drawable-hdpi\back.png
+* app\src\main\res\drawable-hdpi\chat.png
+* app\src\main\res\drawable-hdpi\chat2.png
+* app\src\main\res\drawable-hdpi\dot_red2.png
+* app\src\main\res\drawable-hdpi\friend.png
+* app\src\main\res\drawable-hdpi\friend2.png
+* app\src\main\res\drawable-hdpi\ic_launcher.png
+* app\src\main\res\drawable-hdpi\logo.png
+* app\src\main\res\drawable-hdpi\me.png
+* app\src\main\res\drawable-hdpi\me2.png
+* app\src\main\res\drawable-hdpi\reserve_bubble.9.png
+* app\src\main\res\drawable-hdpi\selector.xml
+* app\src\main\res\drawable-hdpi\send_bubble.9.png
+* app\src\main\res\drawable-hdpi\title.png
+* app\src\main\res\drawable-hdpi\title2.png
+* app\src\main\res\drawable-hdpi\wechat.jpg
+* app\src\main\res\drawable-mdpi\
+* app\src\main\res\drawable-mdpi\ic_launcher.png
+* app\src\main\res\drawable-xhdpi\
+* app\src\main\res\drawable-xhdpi\ic_launcher.png
+* app\src\main\res\drawable-xxhdpi\
+* app\src\main\res\drawable-xxhdpi\ic_launcher.png
+* app\src\main\res\layout\
+* app\src\main\res\layout\about.xml
+* app\src\main\res\layout\activity_main.xml
+* app\src\main\res\layout\activity_talking.xml
+* app\src\main\res\layout\flash.xml
+* app\src\main\res\layout\friend_item.xml
+* app\src\main\res\layout\friend_layout.xml
+* app\src\main\res\layout\friend_message.xml
+* app\src\main\res\layout\login.xml
+* app\src\main\res\layout\msg_item.xml
+* app\src\main\res\layout\set_layout.xml
+* app\src\main\res\layout\tab_button.xml
+* app\src\main\res\layout\talk_item.xml
+* app\src\main\res\layout\talk_layout.xml
+* app\src\main\res\layout\top_layout.xml
+* app\src\main\res\menu\
+* app\src\main\res\menu\main.xml
+* app\src\main\res\values-sw600dp\
+* app\src\main\res\values-sw600dp\dimens.xml
+* app\src\main\res\values-sw720dp-land\
+* app\src\main\res\values-sw720dp-land\dimens.xml
+* app\src\main\res\values-v11\
+* app\src\main\res\values-v11\styles.xml
+* app\src\main\res\values-v14\
+* app\src\main\res\values-v14\styles.xml
+* app\src\main\res\values\
+* app\src\main\res\values\color.xml
+* app\src\main\res\values\dimens.xml
+* app\src\main\res\values\strings.xml
+* app\src\main\res\values\styles.xml
+* build.gradle
+* gradle\
+* gradle\wrapper\
+* gradle\wrapper\gradle-wrapper.jar
+* gradle\wrapper\gradle-wrapper.properties
+* gradlew
+* gradlew.bat
+* ic_launcher-web.png
+* proguard-project.txt
+* settings.gradle
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:19.1.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+* title.PNG => title.png
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

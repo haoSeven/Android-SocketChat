@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Wechat</string>
+    <string name="action_settings">删除聊天记录</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="about">「简聊」是一款免费的企业级即时沟通工具，是平行于团队协作工具 Teambition 的另一款能够改善员工工作效率的产品。「简聊」打通了企业内沟通、任务、人员、文件等各种要素和流程，并通过「分话题、有目标」的企业级即时聊天模式，来让团队沟通变得更有效率。</string>
+</resources>
